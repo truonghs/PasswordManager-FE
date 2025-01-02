@@ -144,6 +144,14 @@ export function ManageUsers() {
       key: 'accounts'
     },
     {
+      title: 'Subscription',
+
+      key: 'subscription',
+      render: (_, record) => {
+        return <Space size='middle'>{record.subscription ? <div>{record.subscription}</div> : <div>FREE</div>}</Space>
+      }
+    },
+    {
       title: 'Action',
       key: 'action',
       render: (_, record) => {

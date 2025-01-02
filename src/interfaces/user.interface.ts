@@ -7,6 +7,7 @@ export interface IUserInfo {
   isauthenticated: boolean
   accountscount: string
   workspacescount: string
+  subscription: string
   deleted: string
 }
 export interface IChangePassWordData {
