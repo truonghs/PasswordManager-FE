@@ -68,10 +68,9 @@ export const PRICING_PLAN_ITEMS = [
         icon: icons.checkmark,
         text: 'Multifactor authentication'
       },
-
       {
-        icon: icons.close,
-        text: 'Workspace features'
+        icon: icons.checkmark,
+        text: '1 workspace'
       }
     ]
   },
@@ -96,7 +95,7 @@ export const PRICING_PLAN_ITEMS = [
       },
       {
         icon: icons.checkmark,
-        text: '1 workspace'
+        text: '4 workspaces'
       }
     ]
   },
@@ -117,7 +116,7 @@ export const PRICING_PLAN_ITEMS = [
       },
       {
         icon: icons.checkmark,
-        text: '5 workspaces'
+        text: '10 workspaces'
       }
     ]
   },

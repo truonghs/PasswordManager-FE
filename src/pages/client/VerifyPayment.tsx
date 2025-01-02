@@ -44,7 +44,7 @@ export const VerifyPayment = () => {
       {data?.status === 'SUCCESS' && (
         <div className='mb-10 delay-75'>
           <div className='text-3xl text-green-600 font-bold uppercase'>{data.message}</div>
-          <div className='text-slate-700 text-base'>FashionUIT xin chân thành cám ơn!</div>
+          <div className='text-slate-700 text-base'>Password Manager xin chân thành cám ơn!</div>
         </div>
       )}
     </div>
